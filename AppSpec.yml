@@ -1,0 +1,6 @@
+version: 0.0
+os: Windows server 2012 R2
+files:
+  - source: /
+    destination: c:\
+
