@@ -1,6 +1,0 @@
-version: 0.0
-os: Windows
-files:
-  - source: /
-    destination: c:\
-
