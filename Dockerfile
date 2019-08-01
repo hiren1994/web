@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 RUN apt update && apt install nginx -y
-ADD  . /var/www/html/
+ADD go /var/www/html/
 # Expose ports.
 EXPOSE 80
 RUN service nginx start
