@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 RUN apt update && apt install nginx -y
-docker cp . /var/www/html/
+ADD ./ /var/www/html/
 # Expose ports.
 EXPOSE 80
 RUN service nginx start
