@@ -1,6 +1,9 @@
 version: 0.0
 os: windows
 files:
-  - source: /
-    destination: C:\inetpub\wwwroot\
-
+  - source: \index.html
+    destination: c:\inetpub\wwwroot
+hooks:
+  BeforeInstall:
+    - location: c:\test.bat
+      timeout: 900
